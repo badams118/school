@@ -29,7 +29,7 @@ import math
 def primes_func(arg):
     n = int(arg)-1
     seq = {1: 'special'}
-
+ 
     for i in range(n-1):
         seq[i+2] = ''
     
